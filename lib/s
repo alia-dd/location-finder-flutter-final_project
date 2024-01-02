@@ -1,0 +1,71 @@
+//  Container(
+                //   color: Colors.amber,
+                //   height: 200,
+                //   child: ListView(
+                //     scrollDirection: Axis.horizontal,
+                //     children: userimage
+                //         .map(
+                //           (user) => Container(
+                //             decoration: BoxDecoration(
+                //               image: DecorationImage(
+                //                 image: AssetImage('lib/images/$user'),
+
+                //                 // fit: BoxFit.cover,
+                //               ),
+                //             ),
+                //           ),
+                //         )
+                //         .toList(),
+                //   ),
+                // ),
+
+
+
+//                 var userArray = [
+//   'user1.jpg',
+//   'user2.jpg',
+//   'user3.jpg',
+//   'user4.jpg',
+//   'user5.jpg',
+//   'user6.jpg',
+//   'user7.jpg',
+//   'user8.jpg',
+//   'user9.jpg',
+//   'user10.jpg'
+// ];
+
+
+// Container(
+//     height: 100,
+//     child: ListView.builder(
+//       scrollDirection: Axis.horizontal,
+//       itemBuilder: (BuildContext context, int index) {
+//         // print(index);
+
+//         return GestureDetector(
+//           onTap: () {
+//             setState(() {
+//               userImage = userArray[index];
+//               borersize = 3;
+
+//               print(index);
+//             });
+//           },
+//           child: Container(
+//             decoration: BoxDecoration(
+//               border: Border.all(
+//                   color: Colors.blue, width: borersize),
+//             ),
+//             child: Image(
+//               image:
+//                   AssetImage('lib/images/' + userArray[index]),
+//               width: 100,
+//               height: 10,
+//               fit: BoxFit.fill,
+//             ),
+//           ),
+//         );
+//       },
+//       itemCount: userArray.length,
+//     ),
+//   ),
