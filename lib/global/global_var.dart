@@ -1,7 +1,7 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-String googleMapKey = "AIzaSyCiQ-KBQaMce6ZIcHbboGnp5aXWh19DlqA";
-String directionkey = "AIzaSyDpYqsG0931if57LWGKZ5XCelDpLhaSM5k";
+String googleMapKey = "";
+String directionkey = "";
 
 const CameraPosition googlePlexInitialPosition = CameraPosition(
     bearing: 192.8334901395799,
