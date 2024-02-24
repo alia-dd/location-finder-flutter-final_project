@@ -1,6 +1,6 @@
-# final_project
+# flutter final_project
 
-A new Flutter project.
+A location finder.
 
 ## Getting Started
 
